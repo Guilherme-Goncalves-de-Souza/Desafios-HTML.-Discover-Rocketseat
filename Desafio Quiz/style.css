@@ -1,0 +1,24 @@
+h3 {
+  font-weight: bold;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3:hover,
+label:hover {
+  color: green;
+}
+
+button {
+  width: 90px;
+  height: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 7px;
+}
+
+button:hover {
+  outline: black 1px solid;
+  opacity: 0.7;
+}
