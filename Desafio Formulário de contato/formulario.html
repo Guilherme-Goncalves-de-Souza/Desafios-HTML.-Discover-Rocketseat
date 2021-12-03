@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./O_Guia_Estelar_de_HTML.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário de contato</title>
+  </head>
+  <body bgcolor="silver">
+    <form>
+      <fieldset>
+        <legend>Entre em contato</legend>
+        <br />
+
+        <label>
+          Assunto:
+          <select>
+            <option value="suporte">Suporte</option>
+            <option value="sugestão">Sugestão</option>
+            <option value="reclamação">Reclamação</option>
+          </select>
+        </label>
+        <br />
+        <br />
+
+        <label for="name">
+          Nome completo: <br />
+          <input id="name" type="text" required placeholder="Seu nome" />
+        </label>
+        <br />
+        <br />
+
+        <label for="email">
+          E-mail: <br />
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="email@dominio.com"
+          />
+        </label>
+        <br />
+        <br />
+
+        <label for="mensagem">
+          Mensagem: <br />
+          <textarea id="mensagem" required rows="10" cols="25"></textarea>
+        </label>
+        <br />
+        <br />
+
+        <label for="check">
+          <input id="check" type="checkbox" required />
+          Aceito receber novidades por email.
+        </label>
+        <br />
+        <br />
+
+        <label for="enviar">
+          <button id="enviar" type="submit">Enviar</button>
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
